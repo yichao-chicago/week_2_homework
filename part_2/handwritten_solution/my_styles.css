@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+
+  /* Make the invisible visible */
+  /*border: thin red solid;*/
+}
+
+.row {
+  clear: both;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 5px;
+
+  box-shadow: 1px 1px 1px 0 gray;
+  background: #1659b7; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1659b7 0%, #004bb5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1659b7), color-stop(100%,#004bb5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #1659b7 0%,#004bb5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #1659b7 0%,#004bb5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #1659b7 0%,#004bb5 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #1659b7 0%,#004bb5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1659b7', endColorstr='#004bb5',GradientType=0 ); /* IE6-9 */
+}
+
+.clearfix {
+  clear: both;
+}
+
+.splash {
+  height: 200px;
+  background-color: lightgray;
+}
+
+.colspan12 {
+  float: left;
+  width: 100%;
+}
+
+.colspan8 {
+  float: left;
+  width: 66%;
+}
+
+.colspan4 {
+  float: left;
+  width: 33%;
+}
+
+.colspan3 {
+  float: left;
+  width: 25%;
+}
